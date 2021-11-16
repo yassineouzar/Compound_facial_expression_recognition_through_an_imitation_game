@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+
+<bus id="serial_bus" type = "serial" name = "/dev/ttyACM0" baudrate = "9600" databits = "8" stopbits = "1" parity ="no" />
+
+<device id="head" bus="serial_bus">
+
+
+<motor  id="tilt6"  type = "servo" name = "pan_mouth_right g-d"   controller_type = "pololu" ssc_num = "2" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt7"  type = "servo" name = "pan_mouth_left g-d"  controller_type = "pololu" ssc_num = "1" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt9"  type = "servo" name = "tilt_mouth_right h-b"  	  controller_type = "pololu" ssc_num = "10" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt10"  type = "servo" name = "tilt_mouth_left h-b"  	  controller_type = "pololu" ssc_num = "9" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="pan14"  type = "servo" name = "tilt_sourcil_right_ext"  	  controller_type = "pololu" ssc_num = "7" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="pan15"  type = "servo" name = "tilt_sourcil_right_int"  	  controller_type = "pololu" ssc_num = "6" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt0"  type = "servo" name = "tilt_sourcil_left_int"  	  controller_type = "pololu" ssc_num = "5" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt4"  type = "servo" name = "tilt_sourcil_left_ext" controller_type = "pololu" ssc_num = "4" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt5"  type = "servo" name = "tilt_front_head"  controller_type = "pololu" ssc_num = "3" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+<motor  id="tilt12"  type = "servo" name = "tilt_mouth_center"  	  controller_type = "pololu" ssc_num = "11" position_0= "2900" position_1="9950" A_pos_feedback="0" pos_init = "6000" Vmax = "1" />
+
+</device>
+
+Camera titi is capture.hwc
+

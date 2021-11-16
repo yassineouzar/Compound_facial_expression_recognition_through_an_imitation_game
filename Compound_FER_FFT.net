@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application version="1.000000">
+	<network>
+<ivybus />
+		<node overwrite_res="0">
+			<name>Compound_FER_learning</name>
+			<computer>localhost</computer>
+			<login></login>
+			<cmd>promethe</cmd>
+			<deploy>FER_FFT</deploy>
+			<distant_directory></distant_directory>
+			<keyboard></keyboard>
+			<synchronize_files></synchronize_files>
+			<synchronize_directories></synchronize_directories>
+			<options></options>
+			<path>
+				<script>compound_facial_expression_recognition.script</script>
+				<symb>Compound_FER_learning.symb</symb>
+				<draw>Compound_FER_learning.draw</draw>
+				<res>compound_facial_expression_recognition_learning.res</res>
+				<config>compound_facial_expression_recognition.config</config>
+				<bus></bus>
+				<var>../Compound_FER_learning.var</var>
+				<dev>compound_facial_expression_recognition.dev</dev>
+				<gcd>../Compound_FER_learning/Compound_FER_learning.gcd</gcd>
+				<prt>../Compound_FER_learning</prt>
+			</path>
+		</node>
+	</network>
+	<link_list />
+	<computer_list />
+</application>
